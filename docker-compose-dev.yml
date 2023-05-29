@@ -33,7 +33,7 @@ services:
     container_name: chat-server
     environment:
       PORT: 8091
-      GIN_MODE: release
+      GIN_MODE: debug
       REDIS_HOST: redis
       REDIS_PORT: 6379
     ports:
